@@ -9,7 +9,7 @@ public class FlutterPhotoLibraryPlugin: NSObject, FlutterPlugin {
   private var currentMediaTypeFilter: String = "all"
 
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "com.example.flutter_photo_library/gallery", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "com.moontechnolabs.flutter_photo_library/gallery", binaryMessenger: registrar.messenger())
     let instance = FlutterPhotoLibraryPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

@@ -79,7 +79,7 @@ class MediaFile {
 
 class FlutterPhotoLibrary {
   static const MethodChannel _channel = MethodChannel(
-    'com.example.flutter_photo_library/gallery',
+    'com.moontechnolabs.flutter_photo_library/gallery',
   );
 
   /// Checks if media access permissions are currently granted on the device.
@@ -152,7 +152,7 @@ class FlutterPhotoLibraryRepository {
   FlutterPhotoLibraryRepository._internal();
 
   static const MethodChannel _channel = MethodChannel(
-    'com.example.flutter_photo_library/gallery',
+    'com.moontechnolabs.flutter_photo_library/gallery',
   );
   final LinkedHashMap<String, Uint8List> _thumbnailCache =
       LinkedHashMap<String, Uint8List>();

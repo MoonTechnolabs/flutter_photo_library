@@ -1,4 +1,4 @@
-group = "com.example.flutter_photo_library"
+group = "com.moontechnolabs.flutter_photo_library"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "com.example.flutter_photo_library"
+    namespace = "com.moontechnolabs.flutter_photo_library"
 
     compileSdk = 36
 

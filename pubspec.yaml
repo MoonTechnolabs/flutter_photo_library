@@ -1,7 +1,12 @@
 name: flutter_photo_library
-description: "A new Flutter plugin project."
+description: "High-performance photo and video manager for Flutter with native-speed gallery loading."
 version: 0.0.1
-homepage:
+
+homepage: https://github.com/MoonTechnolabs/flutter_photo_library
+
+repository: https://github.com/MoonTechnolabs/flutter_photo_library
+
+issue_tracker: https://github.com/MoonTechnolabs/flutter_photo_library/issues
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
@@ -35,7 +40,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.flutter_photo_library
+        package: com.moontechnolabs.flutter_photo_library
         pluginClass: FlutterPhotoLibraryPlugin
       ios:
         pluginClass: FlutterPhotoLibraryPlugin
